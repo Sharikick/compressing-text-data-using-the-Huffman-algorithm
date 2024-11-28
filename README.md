@@ -9,11 +9,13 @@
 ## Команды
 
 Создать docker image
+
 ```bash
 sudo docker build -t huff-image:v01 .
 ```
 
 Создать и запустить docker container
+
 ```bash
 sudo docker run --rm huff-image:v01
 ```
