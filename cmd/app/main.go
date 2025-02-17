@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"huff/internal/handler"
+)
 
 func main() {
-	fmt.Println("Hello world")
+	handler.Execute()
 }
